@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Azure Cognitive Search接続用プラグイン",
+  "name_for_model": "blazoracs",
+  "description_for_human": "Azure Cognitive Searchの検索をするためのプラグイン",
+  "description_for_model": "Azure Cognitive Searchの検索をするためのプラグイン",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:5200/swagger/v1/swagger.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "http://localhost:5200/.well-known/favicon.png",
+  "contact_email": "contact@email.com",
+  "legal_info_url": "http://example.com/legal"
+}
